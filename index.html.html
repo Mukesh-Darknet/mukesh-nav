@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>My Project</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            font-family: Arial;
+            border: border-box;
+            color: #a54e07;
+        }
+        .navbar{
+            
+            height: 70px;
+            background-color: #0f1111;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+        }
+        .navlogo{
+            height: 50px;
+            width: 100px;
+        }
+        .logo{
+            background-image: url(/my\ logo.jpeg);
+            background-size: cover;
+            height: 50px;
+            width: 100%;
+        }
+        .border{
+            border: 1px solid transparent;
+        }
+        .border:hover{
+            border: 1px solid #aaecee;
+        }
+        .para1{
+            color: aliceblue;
+            font-size: 0.95rem;
+            margin-top: 5px;
+            margin-left: 15px;
+        }
+        .para2{
+            color: antiquewhite;
+            font-size: 1rem;
+            margin-left: 16px;
+        }
+       .all{
+        margin-left: 0px;
+        background-color: white;
+        height: 30px;
+       }
+       .input{
+        /* color: #0f1111; */
+        font-size: medium;
+        width: 500px;
+        height: 28px;
+        border-radius: 1px;
+       }
+      .navsearch{
+    
+        width: 600px;
+        height: 40px;
+      }
+      .pannel{
+        background-color: #f0f64bf7;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+      }
+      .pannel_all{
+        display: inline;
+      }
+      .pannel-ops{
+        display: flex;
+        justify-content: space-evenly;
+      }
+      div:hover{
+        border: 1px black;
+      }
+      .panel_all:hover{
+        border: 1px solid bisque;
+
+      }
+      button{
+        background-color: blue;
+        border-radius: 12px;
+        height: 50px;
+        width: 70px;
+        
+      }
+    </style>
+</head>
+<body>
+   <header>
+    <img src="" alt="">
+    <div class="navbar">
+        <div class="navlogo border">
+            <div class="logo"></div>
+        </div>
+        <div class="navadress">
+            <p class="para1">MADE <br>IN</p>
+            <div class="addicon">
+                
+                <p class="para2">INDIA</p>
+            </div>
+        </div>
+        <div class="navsearch">
+           <select class="all">
+            <option  value="">All</option>
+           </select>
+           <input class="input" type="search " placeholder="search for product">
+        </div>
+        <div class="navsign">
+            <!-- <p><span>sign in</span></p> -->
+            <button >sign in</button>
+            <p>account</p>
+        </div>
+    </div>
+    <div class="pannel">
+        <div class="panel_all">
+            <p class="alltag">All</p>
+        </div>
+        <div class="pannel-ops">
+            <!-- <p>Todays deal</p>
+            <p>custer service</p>
+            <p>registry</p>
+            <p>gift cards</p> -->
+            <p>Shop Now</p>
+        </div>
+        <div class="panel-deals">
+
+            <p>Shop deals</p>
+            
+        </div>
+        <div>
+            <p>Our product</p>
+        </div>
+        <div>
+            <p>Grocery</p>
+        </div>
+        <div>
+            <p>Mobile phone</p>
+        </div>
+        <div>
+            <p>Electronics</p>
+        </div>
+        <div>
+            <p>Buy Product</p>
+        </div>
+        <div>
+            <p>Sell Product</p>
+        </div>
+    </div>
+    
+   
+   </header>
+   
+</body>
+</html>
